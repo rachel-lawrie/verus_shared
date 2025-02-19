@@ -11,4 +11,3 @@ RUN mkdir -p /root/.ssh
 
 # Install CompileDaemon for hot reloading
 RUN go install -mod=mod github.com/githubnemo/CompileDaemon@latest
-
